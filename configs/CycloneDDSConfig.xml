@@ -3,6 +3,8 @@
 		<General>
 			<Interfaces>
 				<NetworkInterface name="mlan0" priority="1" multicast="default" presence_required="false" />
+				<NetworkInterface name="eth1" priority="2" multicast="default" presence_required="false" />
+				<NetworkInterface name="usb0" priority="3" multicast="default" presence_required="false" />
 			</Interfaces>
 			<AllowMulticast>default</AllowMulticast>
 			<MaxMessageSize>65500B</MaxMessageSize>
